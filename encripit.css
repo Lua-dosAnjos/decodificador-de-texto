@@ -1,0 +1,133 @@
+
+
+.pagina-encript {
+    background: #E5E5E5;
+    padding-bottom: 60px;
+}
+
+.pagina-encript h1 {
+    padding: 2% 0 5% 0;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.conteiner {
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    height: 85%;
+}
+
+.recebe-texto {
+    margin: 2%;
+    width: 60%;
+    height: 350px;
+    font-size: 2em;
+    border-width: 0;
+    background: #E5E5E5;
+    color: darkblue;
+}
+
+.recebe-texto:focus {
+    border-width: 0;
+}
+
+.resposta-cliente {
+    margin: 2%;
+    width: 25%;
+    background-color: white;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.texto-modificado {
+    display: none;
+    margin-top: 20%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.texto-vazio {
+    display: block;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.texto-vazio img {
+    margin-top: 10%;
+    width: 70%;
+}
+
+.texto-vazio h2 {
+    margin-top: 10%;
+
+}
+
+.texto-vazio p {
+    margin-top: 4%;
+}
+
+.botoes {
+    margin-left: 5%
+}
+
+.button {
+    width: 15%;
+    font-size: 1.5em;
+    padding: 4px;
+    border-radius: 20px;
+    transition: 900ms;
+    padding: 24px;
+    gap: 8px;
+    margin: 0.5%;
+}
+
+.button:hover {
+    background-color: darkblue;
+    color: white;
+    border-color: white;
+
+}
+
+@media screen and (max-width: 550px){
+    .conteiner{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .recebe-texto {
+        margin: 2%;
+        width: 93%;
+        height: 350px;
+        font-size: 2em;
+        border-width: 0;
+        background: #E5E5E5;
+        color: darkblue;
+    }
+
+    .resposta-cliente {
+        margin: 2%;
+        width: 93%;
+        background-color: white;
+        height: 500px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .button {
+        display: block;
+        width: 90%;
+        font-size: 1.5em;
+        border-radius: 20px;
+        transition: 900ms;
+        padding: 24px;
+        gap: 10px;
+        margin: 0.5%;
+        cursor: pointer;
+    }
+
+}
